@@ -1,3 +1,5 @@
+import java.util.*;
+
 class FirstClass {
   public static void main(String args[]) {
     System.out.println("Hello World!!");
@@ -20,5 +22,14 @@ class FirstClass {
     int sum = a + b;
     System.out.println(sum);
 
+    //Inputs in Java
+    Scanner sc = new Scanner(System.in);
+    String name = sc.nextLine();
+    System.out.println(name);
+
+    int a1 = sc.nextInt();
+    int b1 = sc.nextInt();
+    int sum1 = a1 + b1;
+    System.out.println(sum1);
   }
 }
