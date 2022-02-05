@@ -8,9 +8,11 @@ public class PalindromeNumbers {
       for(int j = 1; j <= n - i; j++) {
         System.out.print(" ");
       }
+      //first pattern
       for(int j = i; j >= 1; j--) {
         System.out.print(j);
       }
+      //Remaining pattern
       for(int j = 2; j <= i; j++) {
         System.out.print(j);
       }
