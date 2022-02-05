@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.lang.model.util.ElementFilter;
-
 public class Conditional {
   public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);

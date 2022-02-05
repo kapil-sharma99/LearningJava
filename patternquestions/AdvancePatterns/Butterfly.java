@@ -2,7 +2,7 @@ package patternquestions.AdvancePatterns;
 
 public class Butterfly {
   public static void main(String args[]) {
-    int n = 4;
+    int n = 5;
     for(int i = 1; i <= n; i++) {
       int space = 2*n - 2*i;
       for(int j = 1; j <= i; j++) {
